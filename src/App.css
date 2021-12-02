@@ -1,0 +1,76 @@
+.header{
+  
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #2b2b5c;
+  font-weight: 700;
+  
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9fc;
+}
+
+.App{
+  flex-direction: row;
+  display: flex;
+  flex:1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+ 
+}
+
+.radio-station{
+  
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 5px;
+}
+
+.radio-station img{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border: solid 2px #a0a0c9;
+  border-radius: 20px;
+  
+}
+
+.radio-station img:hover{
+  border: solid 2px #2b2b5c;
+  border-radius: 20px;
+}
+
+/* .player{
+  margin-top: 200px;
+} */
+
+/* h2{
+  position:absolute;
+  margin-top: 225px;
+} */
+
+.radio-title{
+
+  position:absolute;
+  margin-top: 225px;
+  cursor: pointer;
+  color: #8383b6;
+
+}
+
+.radio-title:hover{
+  color: #2d2d7a;
+  
+}
+  
+.player{
+
+  margin-top: 78px;
+
+}
